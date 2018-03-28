@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/tissot
+DEVICE_PATH := device/xiaomi/tiffany
 
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
@@ -180,9 +180,9 @@ DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/compatibility_matrix.xml
 HWUI_COMPILE_FOR_PERF := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_tissot
+TARGET_INIT_VENDOR_LIB := libinit_tiffany
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
-TARGET_RECOVERY_DEVICE_MODULES := libinit_tissot
+TARGET_RECOVERY_DEVICE_MODULES := libinit_tiffany
 
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
